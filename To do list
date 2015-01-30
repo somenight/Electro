@@ -1,0 +1,14 @@
+# Electro
+DML
+1) установить Oracle VM VirtualBox (виртуальная машина)
+https://www.virtualbox.org/
+2) скачать Ubuntu (ОС Linux)
+http://www.ubuntu.com/download/desktop
+3)загрузить в виртуальную машину Ubuntu
+
+работа в ubuntu:
+1)sudo apt-get update
+2)sudo apt-get install --reinstall zlibc zlib1g zlib1g-dev (лишнее шаманство)
+3)в ubuntu предустановлен python( версии где 
+
+
