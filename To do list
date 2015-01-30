@@ -9,6 +9,12 @@ http://www.ubuntu.com/download/desktop
 работа в ubuntu:
 1)sudo apt-get update
 2)sudo apt-get install --reinstall zlibc zlib1g zlib1g-dev (лишнее шаманство)
-3)в ubuntu предустановлен python( версии где 
-
-
+3)в ubuntu предустановлен python
+---- пакеты
+4)sudo apt-get install python python-scipy python-numpy python-matplotlib python-qt4 python-mysqldb python-pip python-psycopg2 python-dev gfortran python-pywt python-sqlalchemy python-migrate python-tables python-joblib  python-guidata python-sklearn python-pandas python-xlwt python-joblib cython
+5)sudo pip install quantities neo pyqtgraph
+---- гит с программой
+6)sudo apt-get install git
+7)git clone https://git@github.com/OpenElectrophy/OpenElectrophy.git
+8)cd ~/OpenElectrophy
+9)sudo python setup.py install
